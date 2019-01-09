@@ -1,0 +1,45 @@
+header{
+	background: #f5f5ef;
+	text-align: center;
+}
+
+img{
+	display:block;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+div.gallery{
+	background:#d8ece8;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+	border-width:1px;
+	border-style:solid;
+	border-color:black;
+ }
+ 
+ div#container{
+ 	background: white;
+ 	text-align: center;
+ 	border-width:1px;
+ 	border-style:solid;
+	margin-left:auto;
+	margin-right:auto;
+	width:320px;
+	height: 110px;
+	padding-top: 10px;
+ }
+
+ div.fin{
+ 	background:#d8ece8;
+ 	border-width:1px;
+	border-style:solid;
+	border-color:black;
+ }
+
+ img.img{
+
+ }
