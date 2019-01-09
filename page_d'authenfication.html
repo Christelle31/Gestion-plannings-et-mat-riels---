@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>Page d'authentification</title>
+		<link rel="stylesheet" type"text/css" href="style.css">
+		<style type="text/css">
+		div {
+				/*background-color : blue;*/
+		} 
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="img">
+				<img class="img" src="images/logo.png" style="width: 350px";>
+			</div>
+			<div class="gallery">
+				<img class="gallery" src="images/banniere.png" style="width: 250px";>
+			</div>
+
+			<div class="img">
+				<img class="img" src="images/cle.png">
+			</div>
+			<form action="verification.php" method="POST">
+                <h2>Authentification</h2>
+
+			<div id="container">
+            <!-- zone de connexion -->
+
+                <label><b>Nom d'utilisateur : </b></label>
+                <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
+
+                <br/><br/>
+
+                <label><b>Mot de passe :</b></label>
+                <input type="password" placeholder="Entrer le mot de passe" name="password" required>
+
+               <br/><br/>
+
+                <input type="submit" id='submit' value='Connexion' >
+                <!-- <?php -->
+                <!-- if(isset($_GET['erreur'])){ -->
+                    <!-- $err = $_GET['erreur']; -->
+                    <!-- if($err==1 || $err==2) -->
+                        <!-- echo "<p style='color:red'>Utilisateur ou mot de passe incorrect</p> -->
+            </form>
+        </div>
+
+        <br/><br/>
+
+<!-- <div class="fin"> -->
+				<!-- <img class="fin" src="images/banniere.png" style="width: 150px";> -->
+				
+			
+
+
+
+			</div>
+
+		</header>
+
+
+	</html>
