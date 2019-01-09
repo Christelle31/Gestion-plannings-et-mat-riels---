@@ -1,0 +1,18 @@
+header{
+	background: #f5f5ef;
+	text-align: center;
+}
+
+img{
+	display:block;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.texte{
+	font-style: normal;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: larger;
+}
